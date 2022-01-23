@@ -9,7 +9,7 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-image: url("https://i.pinimg.com/originals/7a/81/24/7a81240359e212d40a665222ff3d13aa.jpg");
+    background-image:url("./images/body-bg.jpg");
     background-repeat: no-repeat;
     background-position: top center;
     background-size:cover;
@@ -26,7 +26,7 @@ body {
 
 /* Inner Div CSS Code */
 .innerdiv h1 {
-    background-image: url("https://media.istockphoto.com/vectors/vector-grunge-textured-background-beautiful-abstract-decorative-red-vector-id1225740014?k=20&m=1225740014&s=612x612&w=0&h=HPhbN1L4GrzASzoewYMl_8avVBriyP2Q83v85eZ6W9M="); 
+    background-image: url("./images/h1-bg.jpg"); 
     background-size: cover;
     background-repeat: no-repeat;  
     color: yellow;
@@ -34,7 +34,6 @@ body {
     border-radius: 1rem;
     margin: 0.7rem 0 0.4rem;
 }
-
 
 /* Div-Group CSS Code */
 .div-group {
@@ -55,6 +54,8 @@ body {
     font-weight: bold;
     padding-top: 1rem;
     margin: 0;
+    word-spacing: 4px;
+    line-height: 1.3;
     color: black;
     margin-bottom: 1rem;
 }
@@ -63,9 +64,9 @@ body {
 .eachdiv {
     display: inline-block;
     width: 24.5%;
-    background-image: url("https://i0.wp.com/www.csscodelab.com/wp-content/uploads/2019/11/css3-floating-background-animation-website-designer.png?fit=970%2C588&ssl=1");
+    background-image: url("./images/eachdiv-bg.webp");
     border-radius: 1rem;
-    box-shadow: 1px 2px 10px black;
+    box-shadow: 1px 2px 12px black;
     padding: 1rem;
     margin: 0.5rem 0.3%;
     cursor: pointer;
@@ -75,6 +76,7 @@ body {
 .eachdiv:hover {
     transform: scale(1.02) translate(-2px);
     box-shadow: 5px 6px 12px black;
+    transition: 0.5s;
 }
 
 .eachdiv img {
@@ -91,42 +93,97 @@ body {
 .eachdiv .para {
     font-size: 0.9rem;
     color: whitesmoke;
+    word-spacing: 4px;
+    line-height: 1.3;
 }
 
 /* Footer Design CSS Code */
-footer p {
-    position: fixed;
-    font-size: 1rem;
-    cursor:pointer;
-    color: white;
-    bottom: 1rem;
-    right: 1rem;
+footer{
+    text-align: center;
+    padding: 20px;
+    margin: -5px auto;
     font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
 }
 
+footer a{
+    text-decoration: underline;
+    color: black;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: orange;
+}
 /* Responsive CSS Code */
 @media only screen and (max-width: 1000px){
 	.main-container {
     	margin: 4rem;
+        transition: 0.3s;
 	}
 
     .div-group {
         display: inline-block;
+        transition: 0.3s;
     }
 
 	.eachdiv {
     	width: 47%;
+        transition: 0.3s;
+    }
+    .innerdiv .content{
+        font-size: 0.8rem;
+        transition: 0.3s;
+    }
+
+    .innerdiv h1 {
+        font-size: 1.8rem;
+        transition: 0.3s;
+        text-align: center;
+    }
+
+    .eachdiv h3{
+        font-size: 0.9rem;
+        transition: 0.3s;
+        text-align: center;
+    }
+    .eachdiv .para{
+        font-size: 0.8rem;
+        transition: 0.3s;
     }
 }
 
 @media only screen and (max-width: 600px){
 	.main-container {
     	margin: 2rem;
+        transition: 0.3s;
 	}
 	.eachdiv
 	{
     	width: 100%;
     	margin: 0;
+        transition: 0.3s;
+    }
+
+    .innerdiv .content{
+        font-size: 0.7rem;
+        transition: 0.3s;
+    }
+
+    .innerdiv h1 {
+        font-size: 1rem;
+        transition: 0.3s;
+    }
+
+    .eachdiv h3{
+        font-size: 0.8rem;
+        transition: 0.3s;
+    }
+    .eachdiv .para{
+        font-size: 0.8rem;
+        transition: 0.3s;
     }
 }
 
