@@ -5,6 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Body Design CSS Code */
 body {
     width: 100%;
     min-height: 100vh;
@@ -14,6 +15,7 @@ body {
     background-size:cover;
 }
 
+/* Main Container CSS Code */
 .main-container {
     padding: 2rem;
     margin: 4rem;
@@ -22,6 +24,7 @@ body {
     box-shadow: 2px 5px 20px black;
 }
 
+/* Inner Div CSS Code */
 .innerdiv h1 {
     background-image: url("https://media.istockphoto.com/vectors/vector-grunge-textured-background-beautiful-abstract-decorative-red-vector-id1225740014?k=20&m=1225740014&s=612x612&w=0&h=HPhbN1L4GrzASzoewYMl_8avVBriyP2Q83v85eZ6W9M="); 
     background-size: cover;
@@ -32,6 +35,8 @@ body {
     margin: 0.7rem 0 0.4rem;
 }
 
+
+/* Div-Group CSS Code */
 .div-group {
     display: flex;
     justify-content: space-between;
@@ -54,6 +59,7 @@ body {
     margin-bottom: 1rem;
 }
 
+/* Each-Div CSS Code */
 .eachdiv {
     display: inline-block;
     width: 24.5%;
@@ -87,6 +93,7 @@ body {
     color: whitesmoke;
 }
 
+/* Footer Design CSS Code */
 footer p {
     position: fixed;
     font-size: 1rem;
@@ -97,6 +104,7 @@ footer p {
     font-weight: bold;
 }
 
+/* Responsive CSS Code */
 @media only screen and (max-width: 1000px){
 	.main-container {
     	margin: 4rem;
