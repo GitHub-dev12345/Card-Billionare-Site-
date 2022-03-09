@@ -1,0 +1,206 @@
+/* CSS Rest */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body CSS Code */
+Body {
+  width: 100%;
+  background: url("../images/body-bg.jpg") no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+/* Main Container CSS Code */
+.main-container {
+  padding: 2rem;
+  margin: 0px auto;
+  background-color: white;
+  border-radius: 1rem;
+  -webkit-box-shadow: 2px 5px 20px black;
+          box-shadow: 2px 5px 20px black;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+/* Inner Div CSS Code */
+.innerdiv h1 {
+  background: url("../images/h1-bg.jpg") no-repeat;
+  background-size: cover;
+  color: yellow;
+  padding: 0.8rem;
+  border-radius: 1rem;
+  margin: 0.7rem 0 0.4rem;
+}
+
+.innerdiv h1 img {
+  height: 4rem;
+  vertical-align: middle;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.content {
+  font-size: 1em;
+  font-weight: bold;
+  padding-top: 1rem;
+  margin: 0;
+  word-spacing: 4px;
+  line-height: 1.3;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+/* Div-Group CSS Code */
+.div-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* Each-Div CSS Code */
+.eachdiv {
+  display: inline-block;
+  width: 24.5%;
+  background: url("../images/eachdiv-bg.webp") no-repeat;
+  border-radius: 1rem;
+  -webkit-box-shadow: 1px 2px 12px black;
+          box-shadow: 1px 2px 12px black;
+  padding: 1rem;
+  margin: 0.5rem 0.3%;
+  cursor: pointer;
+  -webkit-transform: 0.5s;
+          transform: 0.5s;
+}
+
+.eachdiv:hover {
+  -webkit-transform: scale(1.02) translate(-2px);
+          transform: scale(1.02) translate(-2px);
+  -webkit-box-shadow: 5px 6px 12px black;
+          box-shadow: 5px 6px 12px black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.eachdiv img {
+  width: 100%;
+  margin-bottom: 0.8rem;
+  border-radius: 1rem;
+}
+
+.eachdiv h3 {
+  color: orange;
+  margin-bottom: 0.5rem;
+}
+
+.para {
+  font-size: 0.9rem;
+  color: whitesmoke;
+  word-spacing: 4px;
+  line-height: 1.3;
+}
+
+/* Footer Design CSS Code */
+footer {
+  position: relative;
+  text-align: center;
+  padding: 20px;
+  margin: 0px auto;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+  background: black;
+  cursor: pointer;
+}
+
+footer a {
+  text-decoration: none;
+  color: orange;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: orange;
+}
+
+/* Responsive CSS Code */
+@media only screen and (max-width: 1000px) {
+  .main-container {
+    margin: 0.5rem;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .innerdiv h1 {
+    font-size: 1.8rem;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    text-align: center;
+  }
+  .div-group {
+    display: inline-block;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .eachdiv {
+    width: 47%;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .eachdiv h3 {
+    font-size: 0.9rem;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    text-align: center;
+  }
+  .para {
+    font-size: 0.8rem;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .main-container {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .content {
+    font-size: 0.8rem;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .innerdiv h1 {
+    font-size: 1rem;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .eachdiv {
+    width: 100%;
+    margin: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .eachdiv h3 {
+    font-size: 0.8rem;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .para {
+    font-size: 0.8rem;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+}
+/*# sourceMappingURL=main.css.map */

@@ -36,13 +36,6 @@ body {
     margin: 0.7rem 0 0.4rem;
 }
 
-/* Div-Group CSS Code */
-.div-group {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .innerdiv h1 img {
     height: 4rem;
     vertical-align: middle;
@@ -59,6 +52,13 @@ body {
     line-height: 1.3;
     color: black;
     margin-bottom: 1rem;
+}
+
+/* Div-Group CSS Code */
+.div-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Each-Div CSS Code */
@@ -117,75 +117,6 @@ footer a{
 footer a:hover{
     text-decoration: none;
     color: orange;
-}
-/* Responsive CSS Code */
-@media only screen and (max-width: 1000px){
-	.main-container {
-    	margin: 4rem;
-        transition: 0.3s;
-	}
-
-    .div-group {
-        display: inline-block;
-        transition: 0.3s;
-    }
-
-	.eachdiv {
-    	width: 47%;
-        transition: 0.3s;
-    }
-    .innerdiv .content{
-        font-size: 0.8rem;
-        transition: 0.3s;
-    }
-
-    .innerdiv h1 {
-        font-size: 1.8rem;
-        transition: 0.3s;
-        text-align: center;
-    }
-
-    .eachdiv h3{
-        font-size: 0.9rem;
-        transition: 0.3s;
-        text-align: center;
-    }
-    .eachdiv .para{
-        font-size: 0.8rem;
-        transition: 0.3s;
-    }
-}
-
-@media only screen and (max-width: 600px){
-	.main-container {
-    	margin: 2rem;
-        transition: 0.3s;
-	}
-	.eachdiv
-	{
-    	width: 100%;
-    	margin: 0;
-        transition: 0.3s;
-    }
-
-    .innerdiv .content{
-        font-size: 0.7rem;
-        transition: 0.3s;
-    }
-
-    .innerdiv h1 {
-        font-size: 1rem;
-        transition: 0.3s;
-    }
-
-    .eachdiv h3{
-        font-size: 0.8rem;
-        transition: 0.3s;
-    }
-    .eachdiv .para{
-        font-size: 0.8rem;
-        transition: 0.3s;
-    }
 }
 
 
