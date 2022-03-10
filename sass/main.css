@@ -7,8 +7,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Body CSS Code */
-Body {
+body {
   width: 100%;
   background: url("../images/body-bg.jpg") no-repeat;
   background-position: top center;
