@@ -73,6 +73,7 @@ body {
   display: inline-block;
   width: 24.5%;
   background: url("../images/eachdiv-bg.webp") no-repeat;
+  background-size: cover;
   border-radius: 1rem;
   -webkit-box-shadow: 1px 2px 12px black;
           box-shadow: 1px 2px 12px black;
